@@ -1,0 +1,115 @@
+@import "fonts";
+@import "~bulma/css/bulma-rtl.min.css";
+/* varibales */
+:root {
+  --bg-color: #303030;
+  --text-color-primary: #efefef;
+  --text-color-secondary: #d4d4d4;
+  --text-muted: #8a8a8a;
+  --text-size-normal: 1rem;
+  --text-size-mediam: 1.3rem;
+  --font-size-large: 1.5rem;
+  --primary-color: #ff9800;
+}
+
+/*Global*/
+html,
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Noto Naskh Arabic", Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+}
+a {
+  color: var(--text-color-secondary);
+}
+a:hover {
+  color: var(--primary-color);
+}
+.is-family-primary {
+  font-family: "UbuntuArabic", Arial, Helvetica, sans-serif;
+}
+.is-family-alusus {
+  font-family: "AlususMono", Helvetica, Arial, sans-serif;
+}
+.is-rtl {
+  direction: rtl;
+}
+.is-secondary-color {
+  color: var(--text-color-secondary);
+}
+.is-muted {
+  color: var(--text-muted);
+}
+.is-mediam-size {
+  font-size: var(--text-size-mediam);
+}
+
+.navbar,
+.footer {
+  direction: ltr;
+  background-color: var(--bg-color);
+  color: var(--text-color-primary);
+}
+.footer {
+  font-size: var(--text-size-normal);
+}
+
+/* navigation */
+.navbar-start {
+  direction: rtl;
+}
+.navbar a {
+  color: var(--text-color-primary);
+}
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+  color: var(--primary-color);
+}
+a.navbar-burger {
+  margin-left: auto;
+  margin-right: unset;
+  color: var(--text-color-primary);
+}
+
+/* home page */
+.bd-post-link {
+  display: flex;
+  padding: 2rem;
+  background-color: #363636;
+  border-radius: 0.375em;
+  margin-bottom: 10px;
+}
+.bd-post-body {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+}
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.bd-post-link .icon {
+  flex-shrink: 0;
+  flex-grow: 0;
+  font-size: var(--font-size-large);
+  height: 1.125em;
+  margin-left: 1em;
+  width: 1.125em;
+}
+.bd-post-link:hover {
+  background-color: #444444;
+}
