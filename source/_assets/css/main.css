@@ -49,7 +49,7 @@ a:hover {
   font-size: var(--text-size-mediam);
 }
 
-.navbar,
+.navbar, .navbar-menu, 
 .footer {
   direction: ltr;
   background-color: var(--bg-color);
