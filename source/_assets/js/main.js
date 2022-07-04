@@ -1,3 +1,6 @@
+"use strict";
+
+document.addEventListener("DOMContentLoaded", function () {
 // Dropdowns
 
 var $dropdowns = getAll(".dropdown:not(.is-hoverable)");
@@ -39,3 +42,15 @@ if ($burgers.length > 0) {
     });
   });
 }
+
+// Utils
+
+function getAll(selector) {
+  var parent =
+    arguments.length > 1 && arguments[1] !== undefined
+      ? arguments[1]
+      : document;
+
+  return Array.prototype.slice.call(parent.querySelectorAll(selector), 0);
+}
+});
