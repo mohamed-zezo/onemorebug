@@ -16,11 +16,11 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
-      - name: Setup composer 
-        uses: php-actions/composer@v6
-        with:
-          php_version: 7.4
-          composer_version: 2
+      # - name: Setup composer 
+      #   uses: php-actions/composer@v6
+      #   with:
+      #     php_version: 7.4
+      #     composer_version: 2
 
       - name: Checkout branch
         uses: actions/checkout@v2
