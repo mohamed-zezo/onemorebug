@@ -32,6 +32,9 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
+      - name: Build Jigsaw
+        run: composer install
+
       - name: Build app
         run: npm run prod
         env:
