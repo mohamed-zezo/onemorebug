@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  gh-pages-deploy:
+  build-and-deploy:
     name: Deploying to gh-pages
     runs-on: ubuntu-latest # or macos-latest/windows-latest
       steps:
