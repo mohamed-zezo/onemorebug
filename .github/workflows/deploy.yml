@@ -25,7 +25,7 @@ jobs:
         - name: Checkout branch
           uses: actions/checkout@v2
           env:
-           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+            ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
         - name: Clean install dependencies
           run: npm ci
@@ -40,7 +40,7 @@ jobs:
         - name: deploy
           uses: peaceiris/actions-gh-pages@v3
           with:
-           github_token: ${{ secrets.ACCESS_TOKEN }}
-           publish_dir: ./build_production
+            github_token: ${{ secrets.ACCESS_TOKEN }}
+            publish_dir: ./build_production
           env:
-           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+            ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
