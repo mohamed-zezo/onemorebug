@@ -6,8 +6,7 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
-    name: Deploying to gh-pages
+  deploy:
     runs-on: ubuntu-latest # or macos-latest/windows-latest
       steps:
         - name: Setup Node.js for use with actions
