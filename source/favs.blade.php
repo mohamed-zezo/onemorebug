@@ -1,6 +1,7 @@
 ---
 pagination:
-    collection: blogroll
+    collection: favs
+    perPage: 15
 ---
 @extends('_layouts.page')
 

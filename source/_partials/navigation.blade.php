@@ -15,6 +15,7 @@
     <div class="navbar-start">
       <a class="navbar-item {{ $page->selected('/') }}" href="{{ $page->baseUrl }}/">الرئيسية</a>
       <a class="navbar-item {{ $page->selected('posts') }}" href="{{ $page->baseUrl }}/posts">المدونة</a>
+      <a class="navbar-item {{ $page->selected('favs') }}" href="{{ $page->baseUrl }}/favs">الخزنه</a>
     </div>
   </div>
 </nav>
