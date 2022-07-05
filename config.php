@@ -12,7 +12,7 @@ return [
         'posts' => [
             'sort' => '-date'
         ],
-        'blogroll' => [
+        'fav' => [
             'path' => 'fav',
         ],
     ],
