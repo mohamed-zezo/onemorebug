@@ -12,9 +12,7 @@ return [
         'posts' => [
             'sort' => '-date'
         ],
-        'fav' => [
-            'path' => 'fav',
-        ],
+        'fav',
     ],
     'selected' => function ($page, $section) {
         return Str::contains($page->getPath(), $section) ? 'selected' : '';
