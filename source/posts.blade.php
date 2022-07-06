@@ -44,6 +44,5 @@ pagination:
             <a class="button is-dark is-pulled-right is-rtl" href="{{ $page->baseUrl }}{{ $next }}"> &rarr; تدوينات سابقة</a>
         @endif
     </div>
-@endsection
-
 </div>
+@endsection
