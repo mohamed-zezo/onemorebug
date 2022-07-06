@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
+  <loc>https://onemorebug.tk/posts/first-post</loc>
+  <lastmod>2022-07-06T16:55:28+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://onemorebug.tk</loc>
+  <lastmod>2022-07-06T16:55:28+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://onemorebug.tk/posts</loc>
+  <lastmod>2022-07-06T16:55:28+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://onemorebug.tk/about</loc>
+  <lastmod>2022-07-06T16:55:28+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://onemorebug.tk/favs</loc>
+  <lastmod>2022-07-06T16:55:28+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+</urlset>
