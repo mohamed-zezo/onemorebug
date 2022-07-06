@@ -30,7 +30,7 @@ jobs:
         run: composer install
 
       - name: Build app
-        run: npm run prod
+        run: npm run prod && echo 'onemorebug.tk' > ./build_production/CNAME
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
