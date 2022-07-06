@@ -13,7 +13,6 @@ return [
             'sort' => '-date'
         ],
         'favs' => [
-            // 'path' => 'favs',
         ],
     ],
     'selected' => function ($page, $section) {
